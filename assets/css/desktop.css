@@ -1,0 +1,172 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+	font-family: "Avenir Next Condensed Medium";
+	src: url(../fonts/AvenirNextLTPro-MediumCn.otf);
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Avenir Next Demi Bold";
+	src: url(../fonts/AvenirNextLTPro-Demi.otf);
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Avenir Next Medium";
+	src: url(../fonts/AvenirNextLTPro-Regular.otf);
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.nobreak {
+	white-space: nowrap;
+}
+
+#container {
+	width: 100%;
+}
+
+
+#content {
+	width: 1000px;
+	margin: 0 auto;
+	background-color: #f5f5f5;
+}
+
+nav {
+	text-align: right;
+	height: 14px;
+	padding: 33px 25px;
+	background-color: rgba(18, 19, 23, 0.9);
+	background-image: url(../img/logos/leave-acne-behind.png);
+	background-size: 103px 56px;
+	background-position: 40px 13px;
+	background-repeat: no-repeat;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+nav ul li {
+	font-family: "Avenir Next Condensed Medium", arial, sans-serif;
+	color: #dbe7ef;
+	display: inline-block;
+	text-transform: uppercase;
+	font-size: 16px;
+	margin-right: 30px;
+}
+	nav ul li.less-right {
+		margin-right: 10px;
+	}
+nav ul li a {
+	color: #dbe7ef;
+	text-decoration: none;
+}
+nav ul img {
+	margin-right: 15px;
+}
+
+a.button {
+	display: inline-block;
+	font-family: "Avenir Next Medium";
+	color: #ffffff;
+	font-size: 16px;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 15px 30px;
+	min-width: 100px;
+}
+
+a.button.green {
+	background-color: #00a651;
+}
+a.button.blue {
+	background-color: #31b8e4;
+}
+
+
+header.home {
+	background-image: url(../img/backgrounds/home-woman.jpg);
+	width: 1000px;
+	height: 600px;
+}
+
+div.home-cta {
+	float: right; 
+	width: 375px;
+	margin: 45px 35px;
+}
+	div.home-cta h1 {
+		font-family: "Avenir Next Demi Bold";
+		font-weight: normal;
+		font-size: 34px;
+		margin: 20px 0 10px 0;
+	}
+	div.home-cta h2 {
+		font-family: "Avenir Next Demi Bold";
+		font-weight: normal;
+		font-size: 19px;
+		margin: 0 0 30px 0;
+	}
+
+div#home-signup {
+	padding: 55px;
+	text-align: center;
+}
+	div#home-signup h3 {
+		font-family: "Avenir Next Demi Bold";
+		font-weight: normal;
+		font-size: 26px;
+		margin: 0;
+		color: #31b8e4;
+	}
+	
+	
+p {
+	font-family: "Avenir Next Medium";
+	font-weight: normal;
+	font-size: 16px;
+	margin: 15px 0 25px 0;
+	color: #2a2b2c;
+}
+
+
+
+div.callouts {
+	min-height: 270px;
+	background-color: #7dd0a5;
+}
+
+div.callout {
+	float: left;
+	text-align: center;
+}
+	div.callout img {
+		margin: 25px 0;
+	}
+	div.callout h4 {
+		font-family: "Avenir Next Demi Bold";
+		font-weight: normal;
+		font-size: 22px;
+		margin: 0;
+		color: #2a2b2c;
+	}
+	div.callout p {
+		padding: 0 50px;
+	}
+	div.callout.three {
+		width: 33%;
+	}
