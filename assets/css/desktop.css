@@ -170,3 +170,29 @@ div.callout {
 	div.callout.three {
 		width: 33%;
 	}
+	
+footer {
+	background-color: #1a2026;
+	background-image: url(../img/logos/sun-pharma.png);
+	background-position: left 25px center;
+	background-repeat: no-repeat;
+}
+
+footer ul {
+	list-style: none;
+	margin: 0;
+	padding: 40px 135px;
+}
+
+footer ul li {
+	display: inline-block;
+	color: #dbe7ef;
+	margin-right: 25px;
+	font-family: "Avenir Next Medium";
+	font-size: 14px;
+}
+
+footer ul li a {
+	color: #dbe7ef;
+	text-decoration: none;
+}
