@@ -1,14 +1,10 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Leave Acne Behind</title>
-
-<link rel="stylesheet" type="text/css" href="assets/css/desktop.css">
-
-</head>
-
-<body>
+<?php
+	$title = "Leave Acne Behind";
+	$description = "Description goes here";
+	$keywords = "Keywords go here";
+	
+	include("includes/page-top.php");
+?>
 
 <div id="container">
 
@@ -62,15 +58,7 @@
 		
 		</div>
 		
-		<footer>
-			<ul>
-				<li><a href="#">Contact Us</a></li>
-				<li>|</li>
-				<li><a href="#">Terms of Use</a></li>
-				<li>|</li>
-				<li><a href="#">About Sun Pharma</a></li>
-			</ul>
-		</footer>
+		<?php include("includes/footer.php"); ?>
 	
 	</div>
 
