@@ -1,5 +1,9 @@
 <?php
 
+	if (!isset($thisPage)) {
+		$thisPage = "";
+	}
+
 	$consequences = "";
 	if ($thisPage == "consequences") {
 		$consequences = "class=\"active\"";

@@ -116,7 +116,7 @@ is a liquid that you can put on your skin. This is often used in combination wit
 				
 				<p>Please refer to the isotretinoin package inserts for full prescribing and dispensing instructions.</p>
 				
-				<p>For more information, visit <a href="http://www.ipledgeprogram.com">ipledgeprogram.com</a>.</p>
+				<p>For more information, visit <a href="#" class="exit" data-url="http://www.ipledgeprogram.com">ipledgeprogram.com</a>.</p>
 			</div>
 			
 			<hr class="no-subheader" />
@@ -153,5 +153,6 @@ is a liquid that you can put on your skin. This is often used in combination wit
 
 </div>
 
-</body>
-</html>
+<?php
+	include("includes/page-bottom.php");
+?>

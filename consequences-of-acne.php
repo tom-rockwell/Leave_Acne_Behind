@@ -139,5 +139,6 @@ scarring may affect up to 95% of people with acne. </p>
 
 </div>
 
-</body>
-</html>
+<?php
+	include("includes/page-bottom.php");
+?>

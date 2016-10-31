@@ -69,15 +69,15 @@
 			
 			
 			<div id="print-list">
-				<p>Print out a <a href="#">list of questions</a> you may want to ask your dermatology health care provider</p>
+				<p>Print out a <a href="list-of-questions.php" target="_blank">list of questions</a> you may want to ask your dermatology health care provider</p>
 			</div>
 			
 			<div id="resources">			
 				<h6>For additional resources, please visit the following websites:</h6>
-				<p><a href="#">American Academy of Dermatology &gt;</a></p>
-				<p><a href="#">American Acne and Rosacea Society &gt;</a></p>
-				<p><a href="#">The Clear Skin Project &gt;</a></p>
-				<p><a href="#">Society of Dermatology Physician Assistants &gt;</a></p>
+				<p><a href="#" class="exit" data-url="https://www.aad.org/">American Academy of Dermatology &gt;</a></p>
+				<p><a href="#" class="exit" data-url="https://acneandrosacea.org/">American Acne and Rosacea Society &gt;</a></p>
+				<p><a href="#" class="exit" data-url="http://www.theclearskinproject.com/">The Clear Skin Project &gt;</a></p>
+				<p><a href="#" class="exit" data-url="http://www.dermpa.org/">Society of Dermatology Physician Assistants &gt;</a></p>
 			</div>
 			
 			
@@ -115,5 +115,6 @@
 
 </div>
 
-</body>
-</html>
+<?php
+	include("includes/page-bottom.php");
+?>

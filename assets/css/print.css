@@ -1,0 +1,142 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+@media print, screen {
+
+
+	@font-face {
+		font-family: "AvenirNextCondensedMedium";
+		src: url(../fonts/AvenirNextLTPro-MediumCn.otf);
+		font-weight: normal;
+		font-style: normal;
+	}
+	
+	@font-face {
+		font-family: "AvenirNextDemiBold";
+		src: url(../fonts/AvenirNextLTPro-Demi.otf);
+		font-weight: normal;
+		font-style: normal;
+	}
+	
+	@font-face {
+		font-family: "AvenirNextMedium";
+		src: url(../fonts/AvenirNextLTPro-Regular.otf);
+		font-weight: normal;
+		font-style: normal;
+	}
+	
+	@font-face {
+		font-family: "AvenirNextBold";
+		src: url(../fonts/AvenirNextLTPro-Bold.otf);
+		font-weight: normal;
+		font-style: normal;
+	}
+	
+	@font-face {
+		font-family: "AvenirHeavy";
+		src: url(../fonts/avenir_85_heavy.otf);
+		font-weight: normal;
+		font-style: normal;
+	}
+	
+	
+	body {
+		margin: 0;
+		padding: 0;
+	}
+	
+	.nobreak {
+		white-space: nowrap;
+	}
+	
+	#container {
+		padding: 50px;
+	}
+	
+	
+	#content {
+		margin: 0 auto;
+		background-color: #ffffff;
+	}
+	
+	img#logo {
+		width: 150px;
+		height: auto;
+	}
+	
+	h1 {
+		font-family: "AvenirHeavy";
+		font-weight: normal;
+		font-size: 21pt;
+		line-height: 25pt;
+		color: #2a2b2c;
+		margin: 0;
+		margin-bottom: 10px;
+	}
+	
+	h2 {
+		font-family: "AvenirNextMedium";
+		font-weight: normal;
+		font-size: 12pt;
+		color: #33b8e4;
+		margin: 0;
+		margin-bottom: 25px;
+	}
+	
+	p {
+		font-family: "AvenirNextMedium";
+		font-weight: normal;
+		font-size: 12pt;
+		color: #2a2b2c;
+		margin: 0;
+		margin-bottom: 25px;
+	}
+	
+	ul {
+		margin: 0;
+		padding-left: 16px;
+		list-style: none;
+	}
+	
+	ul li {
+		font-family: "AvenirNextMedium";
+		font-weight: normal;
+		font-size: 10pt;
+		color: #2a2b2c;
+		margin: 0;
+		margin-bottom: 25px;
+		position: relative;
+	}
+		ul li:before {
+			content: " ";
+			width: 8px;
+			height: 8px;
+			border-radius: 8px;
+			position: absolute;
+			top: 3px;
+			left: -15px;
+			background-color: #33b8e3;
+		}
+		
+		ul li ul {
+			margin-top: 25px;
+		}
+		ul li ul li:before {
+			content: " ";
+			width: 6px;
+			height: 2px;
+			position: absolute;
+			top: 5px;
+			left: -15px;
+			background-color: #33b8e3;
+		}
+
+
+}
+@media screen and (max-width: 1000px) {
+	
+	h1 {
+		margin-bottom: 30px;
+	}
+}

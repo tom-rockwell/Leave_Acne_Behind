@@ -187,5 +187,6 @@ blackheads.</p>
 
 </div>
 
-</body>
-</html>
+<?php
+	include("includes/page-bottom.php");
+?>

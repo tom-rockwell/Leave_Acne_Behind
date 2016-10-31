@@ -2,39 +2,40 @@
 /* CSS Document */
 
 @font-face {
-	font-family: "Avenir Next Condensed Medium";
-	src: url(../fonts/AvenirNextLTPro-MediumCn.otf);
+	font-family: "AvenirNextCondensedMedium";
+	src: url('../fonts/avenir_next_med_cn.eot?#iefix') format('embedded-opentype'), url(../fonts/avenir_next_med_cn.otf);
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: "Avenir Next Demi Bold";
-	src: url(../fonts/AvenirNextLTPro-Demi.otf);
+	font-family: "AvenirHeavy";
+	src: url('../fonts/avenir_85_heavy.eot?#iefix') format('embedded-opentype'), url(../fonts/avenir_85_heavy.otf);
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: "Avenir Next Medium";
-	src: url(../fonts/AvenirNextLTPro-Regular.otf);
+	font-family: "AvenirNextDemiBold";
+	src: url('../fonts/avenir_next_demi?#iefix') format('embedded-opentype'), url(../fonts/avenir_next_demi.otf);
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: "Avenir Next Bold";
-	src: url(../fonts/AvenirNextLTPro-Bold.otf);
+	font-family: "AvenirNextMedium";
+	src: url('../fonts/avenir_next_regular?#iefix') format('embedded-opentype'), url(../fonts/avenir_next_regular.otf);
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: "Avenir Heavy";
-	src: url(../fonts/avenir_85_heavy.otf);
+	font-family: "AvenirNextBold";
+	src: url('../fonts/avenir_next_bold?#iefix') format('embedded-opentype'), url(../fonts/avenir_next_bold.otf);
 	font-weight: normal;
 	font-style: normal;
 }
+
 
 
 body {
@@ -58,7 +59,7 @@ body {
 }
 
 h1 {
-	font-family: "Avenir Next Bold";
+	font-family: "AvenirNextBold";
 	font-weight: normal;
 	font-size: 28px;
 	margin: 0;
@@ -81,14 +82,14 @@ h1 {
 	}
 
 h3 {
-	font-family: "Avenir Next Demi Bold";
+	font-family: "AvenirNextDemiBold";
 	font-weight: normal;
 	font-size: 24px;
 	margin: 0;
 }
 
 h4 {
-	font-family: "Avenir Next Medium";
+	font-family: "AvenirNextMedium";
 	font-weight: normal;
 	font-size: 29px;
 	margin: 0;
@@ -111,7 +112,7 @@ h4 {
 
 
 h5 {
-	font-family: "Avenir Next Demi Bold";
+	font-family: "AvenirNextDemiBold";
 	font-weight: normal;
 	font-size: 18px;
 	margin: 0;
@@ -120,7 +121,7 @@ h5 {
 }
 
 h6 {
-	font-family: "Avenir Next Demi Bold";
+	font-family: "AvenirNextDemiBold";
 	font-weight: normal;
 	font-size: 18px;
 	margin: 0;
@@ -145,7 +146,7 @@ nav ul {
 	list-style: none;
 }
 nav ul li {
-	font-family: "Avenir Next Condensed Medium", arial, sans-serif;
+	font-family: "AvenirNextCondensedMedium";
 	color: #dbe7ef;
 	display: inline-block;
 	text-transform: uppercase;
@@ -178,7 +179,7 @@ ol {
 }
 
 ol li {
-	font-family: "Avenir Next Demi Bold";
+	font-family: "AvenirNextDemiBold";
 	font-weight: normal;
 	font-size: 22px;
 	margin-bottom: 5px;
@@ -199,7 +200,7 @@ ol p {
 
 a.button {
 	display: inline-block;
-	font-family: "Avenir Next Medium";
+	font-family: "AvenirNextMedium";
 	color: #ffffff;
 	font-size: 16px;
 	text-decoration: none;
@@ -207,6 +208,7 @@ a.button {
 	text-align: center;
 	padding: 15px 30px;
 	min-width: 100px;
+	cursor: pointer;
 }
 
 a.button.green {
@@ -214,6 +216,9 @@ a.button.green {
 }
 a.button.blue {
 	background-color: #31b8e4;
+}
+a.button.grey {
+	background-color: #666666;
 }
 	div.callouts a.button {
 		background-color: #2a2b2c;
@@ -223,8 +228,9 @@ a.button.blue {
 		color: #c4fcdf;
 	}
 
+
 blockquote {
-	font-family: "Avenir Next Medium";
+	font-family: "AvenirNextMedium";
 	color: #2a2b2c;
 	font-size: 39px;
 	margin: 50px 100px;
@@ -232,7 +238,7 @@ blockquote {
 	position: relative;
 }
 	blockquote span.blue {
-		font-family: "Avenir Next Bold";
+		font-family: "AvenirNextBold";
 		color: #31b8e4;
 		font-size: 64px;
 	}
@@ -325,13 +331,13 @@ div.home-cta {
 	margin: 45px 35px;
 }
 	div.home-cta h1 {
-		font-family: "Avenir Next Demi Bold";
+		font-family: "AvenirNextDemiBold";
 		font-weight: normal;
 		font-size: 34px;
 		margin: 20px 0 10px 0;
 	}
 	div.home-cta h2 {
-		font-family: "Avenir Next Demi Bold";
+		font-family: "AvenirNextDemiBold";
 		font-weight: normal;
 		font-size: 19px;
 		margin: 0 0 30px 0;
@@ -342,7 +348,7 @@ div#home-signup {
 	text-align: center;
 }
 	div#home-signup h3 {
-		font-family: "Avenir Next Demi Bold";
+		font-family: "AvenirNextDemiBold";
 		font-weight: normal;
 		font-size: 26px;
 		margin: 0;
@@ -356,7 +362,7 @@ div.black-bar {
 	position: absolute;
 }
 	div.black-bar p {
-		font-family: "Avenir Heavy";
+		font-family: "AvenirHeavy";
 		color: #f0f0f0;
 		font-size: 44px;
 		position: absolute;
@@ -535,7 +541,7 @@ div.main {
 	
 	
 p, li {
-	font-family: "Avenir Next Medium";
+	font-family: "AvenirNextMedium";
 	font-weight: normal;
 	font-size: 16px;
 	line-height: 26px;
@@ -569,7 +575,7 @@ p, li {
 	}
 
 strong {
-	font-family: "Avenir Next Demi Bold";
+	font-family: "AvenirNextDemiBold";
 	color: #57585b;
 }
 
@@ -596,7 +602,7 @@ div.callout {
 		margin: 25px 0;
 	}
 	div.callout h4 {
-		font-family: "Avenir Next Demi Bold";
+		font-family: "AvenirNextDemiBold";
 		font-weight: normal;
 		font-size: 22px;
 		margin: 0;
@@ -623,7 +629,7 @@ figure {
 
 figcaption {
 	text-align: center;
-	font-family: "Avenir Next Medium";
+	font-family: "AvenirNextMedium";
 	font-size: 15px;
 	margin-top: 6px;
 }
@@ -701,7 +707,7 @@ footer ul li {
 	display: inline-block;
 	color: #dbe7ef;
 	margin-right: 25px;
-	font-family: "Avenir Next Medium";
+	font-family: "AvenirNextMedium";
 	font-size: 14px;
 }
 
@@ -715,3 +721,154 @@ div.clearfix {
 	height: 0px;
 	clear: both;
 }
+
+div.overlay {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	background-color: rgba(0, 0, 0, 0.75);
+	
+	/*display: flex;*/
+	flex-direction: column;
+	justify-content: center;
+	
+	display: none;
+}
+
+div.dialog {
+	background-color: #ffffff;
+	border-radius: 15px;
+	padding: 25px;
+	margin: 0 auto;
+	position: relative;
+}
+
+	div.dialog img.close {
+		position: absolute;
+		top: 10px;
+		right: 10px;
+		cursor: pointer;
+	}
+
+	div#exit div {
+		width: 335px;
+	}
+	
+	div#exit div img#logo {
+		width: 140px;
+		height: auto;
+		margin: 15px 0;
+	}
+	
+	div#exit div h6 {
+		margin-bottom: 40px;
+	}
+	div#exit div a.button.grey {
+		margin-right: 10px;
+	}
+	
+	
+	div#signup div {
+		width: 535px;
+		padding: 25px 40px;
+	}
+	div#signup div img#logo {
+		width: 160px;
+		height: auto;
+		margin: 0 auto 15px;
+		display: inherit;
+	}
+	div#signup div h3 {
+		font-family: "AvenirNextBold";
+		font-size: 22px;
+		color: #31b8e4;
+		margin-bottom: 10px;
+	}
+	div#signup div p {
+		font-size: 15px;
+		line-height: 18px;
+		margin-bottom: 10px;
+	}
+		div#signup div p.terms {
+			font-size: 14px;
+			line-height: 18px;
+			padding-left: 35px;
+			text-indent: -35px;
+			margin-bottom: 45px;
+		}
+	
+	div#signup a.continue {
+		position: absolute;
+		bottom: 25px;
+		right: 25px;
+	}
+	div#signup a.cancel {
+		position: absolute;
+		bottom: 25px;
+		right: 205px;
+	}
+	
+	div#signUpThankyou div {
+		width: 444px;
+		padding: 25px 40px;
+	}
+	div#signUpThankyou div img#logo {
+		width: 160px;
+		height: auto;
+		margin: 0 auto 15px;
+		display: inherit;
+	}
+	div#signUpThankyou div h3 {
+		font-family: "AvenirNextBold";
+		font-size: 22px;
+		color: #31b8e4;
+		margin-bottom: 10px;
+		text-align: center;
+	}
+	div#signUpThankyou a.cancel {
+		width: 185px;
+		margin: 0 auto;
+		display: inherit;
+	}
+	
+	
+	input[type=text], input[type=email] {
+		font-family: "AvenirNextMedium";
+		font-size: 15px;
+		padding: 6px 6px 0px 6px;
+		width: 220px;
+		margin-right: 10px;
+	}
+	
+	input[type=checkbox] {
+		position: relative;
+		width: 30px;
+		height: 17px;
+	}
+	input[type=checkbox]:after {
+		content: " ";
+		display:block;
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 18px;
+		height: 18px;
+		background-color: #ffffff;
+		border: 1px solid #dcdbdb;
+	}
+	input[type=checkbox]:checked:after {
+		content: " ";
+		display:block;
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 18px;
+		height: 18px;
+		background-color: #41bde5;
+		background-image: url(../img/icons/checkbox.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		border: 1px solid #dcdbdb;
+	}
