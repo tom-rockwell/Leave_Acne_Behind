@@ -3,7 +3,12 @@
 
 @font-face {
 	font-family: "AvenirNextCondensedMedium";
-	src: url('../fonts/avenir_next_med_cn.eot?#iefix') format('embedded-opentype'), url(../fonts/avenir_next_med_cn.otf);
+	/*src: url('../fonts/avenir_next_med_cn.eot?#iefix') format('embedded-opentype'), url(../fonts/avenir_next_med_cn.otf);*/
+	/*src: url('../fonts/avenir-next-condensed.eot?#iefix') format('embedded-opentype'), url(../fonts/avenir-next-condensed.otf);*/
+	/*src: url('../fonts/AvenirNextLTPro-MediumCn.eot?#iefix') format('embedded-opentype'), url(../fonts/AvenirNextLTPro-MediumCn.otf);*/
+	src: url('../fonts/avenir-medium-condensed.woff') format('woff'), 
+		url('../fonts/avenir-medium-condensed.eot?#iefix') format('embedded-opentype'), 
+		url(../fonts/avenir-medium-condensed.otf);
 	font-weight: normal;
 	font-style: normal;
 }
@@ -17,21 +22,27 @@
 
 @font-face {
 	font-family: "AvenirNextDemiBold";
-	src: url('../fonts/avenir_next_demi?#iefix') format('embedded-opentype'), url(../fonts/avenir_next_demi.otf);
+	src: url('../fonts/avenir_next_demi.woff') format('woff'), 
+		url('../fonts/avenir_next_demi.eot?#iefix') format('embedded-opentype'), 
+		url(../fonts/avenir_next_demi.otf);
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: "AvenirNextMedium";
-	src: url('../fonts/avenir_next_regular?#iefix') format('embedded-opentype'), url(../fonts/avenir_next_regular.otf);
+	src: url('../fonts/avenir_next_regular.woff') format('woff'), 
+		url('../fonts/avenir_next_regular?#iefix') format('embedded-opentype'), 
+		url(../fonts/avenir_next_regular.otf);
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: "AvenirNextBold";
-	src: url('../fonts/avenir_next_bold?#iefix') format('embedded-opentype'), url(../fonts/avenir_next_bold.otf);
+	src: url('../fonts/avenir_next_bold.woff') format('woff'), 
+		url('../fonts/avenir_next_bold?#iefix') format('embedded-opentype'), 
+		url(../fonts/avenir_next_bold.otf);
 	font-weight: normal;
 	font-style: normal;
 }
@@ -151,7 +162,7 @@ nav ul li {
 	display: inline-block;
 	text-transform: uppercase;
 	font-size: 16px;
-	margin-right: 30px;
+	margin-right: 25px;
 	margin-top: 0;
 }
 	nav ul li.less-right {
